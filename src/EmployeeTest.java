@@ -1,4 +1,4 @@
-import java.io.*;
+//import java.io.*;
 public class EmployeeTest{
     static int allClicks=0;    // 类变量
     String str;  // 实例变量
