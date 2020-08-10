@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class First {
     public static void main(String[] args){
         /* 创建对象，对象名为First */
-        First obj = new First("s");
+        First obj = new First("s",1);
         obj.run();
         int sum = obj.sum();
         System.out.println(sum);
@@ -39,8 +39,8 @@ public class First {
      * 这个构造器仅有一个参数：name
      * @param name
      */
-    public First(String name) {
-        System.out.println("小狗的名字是 : " + name);
+    public First(String name,int age) {
+        System.out.println("小狗的名字是 : " + name+"---"+"年龄："+age);
     }
 
     /**

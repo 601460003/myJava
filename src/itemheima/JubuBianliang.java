@@ -22,6 +22,12 @@ public class JubuBianliang {
         salary1 = 10000;
         System.out.println(DEPARTMENT+"平均工资:"+salary1);
         System.out.println(DEPARTMENT+"开发类型:"+DEPARTMENT);
+        First[] s=new First[5];//对象数组的创建是一样的
+        for (int i = 0; i < 5; i++) {
+            //还可以一个个输入s[i].getName,s[i].getNum,s[i].getGrade,一个个输入,用下面的方法更加快捷
+            s[i]=new First("A"+i,i);
+        }
+        System.out.println(s[0]);
     }
 
     /**
