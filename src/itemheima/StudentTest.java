@@ -14,7 +14,6 @@ public class StudentTest {
             //还可以一个个输入s[i].getName,s[i].getNum,s[i].getGrade,一个个输入,用下面的方法更加快捷
             s[i]=new Student(in.next(),in.nextInt(),in.nextInt());
         }
-
         Student s1=null;//创建一个为空的对象进行数据交换
         //根据学生的成绩进行排序,这里运用冒泡排序
         for(int i=0;i<s.length;i++) {
